@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+/* global styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Navbar styles */
+#navstart .nav-item>.nav-link:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: green;
+    color: green;
+}
+
+/* carousel styling */
+.carousel-item>img{
+    width: 100%;
+    height: 100vh;
+}
+
+@media screen and (min-width:300px) and (max-width:576px) {
+    .carousel-item>img{
+        width: 100%;
+        height: 30vh;
+    }   
+}
+
